@@ -19,7 +19,7 @@ const InputWithLabel = ({
             <label htmlFor={todoItemID}>{children}</label>
             &nbsp;
             <input
-                todoItemID={todoItemID}
+                id={todoItemID}
                 type={type}
                 name={name}
                 value={value}
