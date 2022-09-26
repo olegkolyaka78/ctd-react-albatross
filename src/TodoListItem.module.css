@@ -1,0 +1,84 @@
+.ListItem {
+    color:rgb(13, 0, 255);
+    font-size: 36px;
+    font-family: cursive;
+    display: flex;
+    margin-top: 6px;
+}
+
+.ListItem > span {
+    padding: 0 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.app h1 {
+    color: rgb(30, 110, 34);
+    font-size: 40px;
+    font-family: cursive;
+    padding: 10px 20px;
+}
+
+.app p {
+    color: rgb(30, 110, 34);
+    font-size: 36px;
+    font-family: cursive;
+}
+
+.buttonAdd {
+    background: transparent;
+    border: none;
+    vertical-align: middle;
+}
+
+.buttonAdd:hover {
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.button {
+    background: rgb(159, 211, 161);
+    border: none;
+    padding: 10px 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(30, 110, 34);
+    font-family: cursive;
+    width: 55px;
+    height: 45px;
+    display: inline-flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    }
+
+.button:hover {
+    background-color: #f44336;
+    color: white;
+    }
+
+.label {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(30, 110, 34);
+    font-family: cursive;
+    padding: 10px 20px;
+}
+
+.input {
+    background: white;
+    border: 5px;
+    font-family: cursive;
+    font-size: 30px;
+    color:rgb(13, 0, 255);
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+        
+    
+    

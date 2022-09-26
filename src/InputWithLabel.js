@@ -1,4 +1,5 @@
 import React from 'react';
+import style from './TodoListItem.module.css';
 
 const InputWithLabel = ({
     todoItemID,
@@ -25,6 +26,8 @@ const InputWithLabel = ({
                 value={value}
                 onChange={onInputChange}
                 ref={inputRef}
+                className={style.input}
+                placeholder="Enter todo item"
             />
         </>
     );
